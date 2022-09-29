@@ -2,7 +2,7 @@
 export default [
   // «»==== Парфюм ====«»
   {
-    img: '../img/perfume/sammer_white_sunset_60570.webp ',
+    img: './img/perfume/sammer_white_sunset_60570.webp ',
     title: 'Summer White Sunset',
     subtitle: 'Туалетная вода Avon для нее 50мл',
     code: '60570',
@@ -14,7 +14,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/perfume/16393.webp',
+    img: './img/perfume/16393.webp',
     title: 'Summer White Maldives',
     subtitle: 'Туалетная вода Avon для нее 50мл.',
     code: '16393',
@@ -27,7 +27,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/perfume/14009-todey-50ml.webp',
+    img: './img/perfume/14009-todey-50ml.webp',
     title: 'TODAY',
     subtitle: 'Парфюмерная Вода Today Для Нее, 50мл',
     code: '14009',
@@ -40,7 +40,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/perfume/Incandessense-75.webp',
+    img: './img/perfume/Incandessense-75.webp',
     title: 'INCANDESSENSE',
     subtitle: 'Парфюмерный Спрей Для Нее, 75мл',
     code: '30474',
@@ -53,7 +53,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/perfume/Herstory-03921.webp',
+    img: './img/perfume/Herstory-03921.webp',
     title: 'HERSTORY',
     subtitle: 'Парфюмерная Вода Для Нее 50мл.',
     code: '03921',
@@ -65,7 +65,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/perfume/17502.webp',
+    img: './img/perfume/17502.webp',
     title: 'SUMMER WHITE',
     subtitle: 'Туалетная Вода Для Нее, 50мл',
     code: '17502',
@@ -77,7 +77,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/perfume/cherish_escape_10ml_07435.webp',
+    img: './img/perfume/cherish_escape_10ml_07435.webp',
     title: 'CHERISH ESCAPE',
     subtitle: 'Парфюмерная Вода Для Нее 10мл.',
     code: '07435',
@@ -89,7 +89,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/perfume/Far_Away_Glamour_10ml_18605.webp',
+    img: './img/perfume/Far_Away_Glamour_10ml_18605.webp',
     title: 'FAR AWAY GLAMOUR',
     subtitle: 'Парфюмерная Вода Для Нее 10мл.',
     code: '18605',
@@ -101,7 +101,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/perfume/eve_truth_10ml_77925.webp',
+    img: './img/perfume/eve_truth_10ml_77925.webp',
     title: 'EVE TRUTH',
     subtitle: 'Парфюмерная Вода Для Нее 10мл.',
     code: '77925',
@@ -113,7 +113,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/perfume/Eve_DU-ET_10ml_65781.webp',
+    img: './img/perfume/Eve_DU-ET_10ml_65781.webp',
     title: 'EVE DUET SENSUAL',
     subtitle: 'Парфюмерная Вода Для Нее 10мл.',
     code: '65781',
@@ -125,7 +125,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/perfume/tuday.webp',
+    img: './img/perfume/tuday.webp',
     title: 'TODAY',
     subtitle: 'Парфюмерная Вода Для Нее 10мл.',
     code: '1313369',
@@ -137,7 +137,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/perfume/00664.webp',
+    img: './img/perfume/00664.webp',
     title: 'PUR BLANCA',
     subtitle: 'Парфюмированный Спрей Для Тела 100мл.',
     code: '00664',
@@ -149,7 +149,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/perfume/16394.webp',
+    img: './img/perfume/16394.webp',
     title: 'SUMMER WHITE RIOS',
     subtitle: 'Туалетная Вода Для Нее, 50мл.',
     code: '16394',
@@ -162,7 +162,7 @@ export default [
   },
   // «»==== Парфюм  man ====«»
   {
-    img: '../img/perfume/segno-75.webp',
+    img: './img/perfume/segno-75.webp',
     title: 'SEGNO IMPACT',
     subtitle: 'Парфюмерная Вода Avon Segno Impact Для Него, 75мл',
     code: '22737',
@@ -174,7 +174,7 @@ export default [
     gender: "men",
   },
   {
-    img: '../img/perfume/Full_Speed-18397.webp',
+    img: './img/perfume/Full_Speed-18397.webp',
     title: 'FULL SPEED',
     subtitle: 'Туалетная Вода Avon Для Него 75мг.',
     code: '18397',
@@ -186,7 +186,7 @@ export default [
     gender: "men",
   },
   {
-    img: '../img/perfume/Absolute-by-Elite-04405.webp',
+    img: './img/perfume/Absolute-by-Elite-04405.webp',
     title: 'ABSOLUTE BY ELITE GENTLEMAN',
     subtitle: 'Туалетная Вода Для Мужчин Avon 50мл.',
     code: '04405',
@@ -201,7 +201,7 @@ export default [
 
   // «»========== Макияж /=======«»
   {
-    img: '../img/makeup/66728.webp',
+    img: './img/makeup/66728.webp',
     title: '«ИГРА ЦВЕТА» ',
     subtitle: 'Карандаши Для Глаз: Чёрный, Синий, Зеленый, Коричневый.',
     code: '66728',
@@ -214,7 +214,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/makeup/tush_1318168.webp',
+    img: './img/makeup/tush_1318168.webp',
     title: 'TRUE EUPHORIC',
     subtitle: 'Тушь Для Ресниц «Объем И Длина», Ультрачерна 10мл.',
     code: '1318168',
@@ -227,7 +227,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/makeup/29209.webp',
+    img: './img/makeup/29209.webp',
     title: 'КРЕМ-ПУДРА ДЛЯ ЛИЦА',
     subtitle: 'Оттенок:Розовая Слоновая Кость/Ivory Pink',
     code: '14376',
@@ -240,7 +240,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/makeup/19500.webp',
+    img: './img/makeup/19500.webp',
     title: 'AVON MARK «ОБЪЕМ»',
     subtitle: 'Тушь Для Ресниц «Эффект Накладных Ресниц», Ультрачерна.',
     code: '19500',
@@ -253,7 +253,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/makeup/tush_35260.webp',
+    img: './img/makeup/tush_35260.webp',
     title: 'GIORDANI GOLD',
     subtitle: 'Тушь С Эффектом Подводки, Черная.',
     code: '35260',
@@ -266,7 +266,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/makeup/pomada_27137.webp',
+    img: './img/makeup/pomada_27137.webp',
     title: 'TRUE COLOUR',
     subtitle: 'Губная Помада' + '<br>' + '«Матовое Превосходство» Цвет - Красный',
     code: '27137',
@@ -279,7 +279,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/makeup/oriflame-41802.webp',
+    img: './img/makeup/oriflame-41802.webp',
     title: 'THE ONE COLOUR' + '<br>' + 'UNLIMITED ULTRA',
     subtitle: 'Суперстойкая Матовая Помада Oriflame, ' + '<br>' + 'Цвет - Фуксия',
     code: '41802',
@@ -292,7 +292,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/makeup/31490.webp',
+    img: './img/makeup/31490.webp',
     title: 'THE ONE',
     subtitle: 'Гель-Кондиционер Для Бровей И Ресниц',
     code: '31490',
@@ -305,7 +305,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/makeup/carandash_40228.webp',
+    img: './img/makeup/carandash_40228.webp',
     title: '«УЛЬТРА»',
     subtitle: 'Карандаш Для Губ, Pink Cashmere / Розово-Лиловый',
     code: '40228',
@@ -318,7 +318,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/makeup/07071.webp',
+    img: './img/makeup/07071.webp',
     title: '«СИЯНИЕ» SPF 20',
     subtitle: 'Увлажняющий Дневной Крем С Тональным Эффектом 50мл.',
     code: '07071',
@@ -330,7 +330,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/makeup/35215.webp',
+    img: './img/makeup/35215.webp',
     title: '«Идеальный Оттенок»',
     subtitle: 'Пудра-Шарики Avon С Корректирующим Эффектом,',
     code: '35215',
@@ -342,7 +342,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/makeup/26365.webp',
+    img: './img/makeup/26365.webp',
     title: '«Скорая Помощь»',
     subtitle: 'Бальзам Для Губ' + '<br>' + ' Avon Care.',
     code: '26365',
@@ -354,7 +354,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/makeup/26360.webp',
+    img: './img/makeup/26360.webp',
     title: '«Увлажняющий»',
     subtitle: 'Бальзам Для Губ' + '<br>' + ' Avon Care.',
     code: '26360',
@@ -369,7 +369,7 @@ export default [
 
   //  «»========== для лица =======«»
   {
-    img: '../img/face/22159.webp',
+    img: './img/face/22159.webp',
     title: '«РАЙСКОЕ УВЛАЖНЕНИЕ»',
     subtitle: 'Маска Для Лица С Маслом Оливы, 75мл',
     code: '22159',
@@ -382,7 +382,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/face/19180b.webp',
+    img: './img/face/19180b.webp',
     title: 'AVON ANEW CLINICAL',
     subtitle: 'Лифтинг-Система 2 В 1 Для Кожи Вокруг Глаз',
     code: '87376',
@@ -395,7 +395,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/face/09037.webp',
+    img: './img/face/09037.webp',
     title: '«СПЛЕШ-УХОД»',
     subtitle: 'Маска Для Лица, 125мл',
     code: '09037',
@@ -408,7 +408,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/face/44782.webp',
+    img: './img/face/44782.webp',
     title: '«АНТИВОЗРАСТНОЙ»',
     subtitle: 'Ночной Гель Для Лица, 50мл',
     code: '44782',
@@ -421,7 +421,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/face/25972.webp',
+    img: './img/face/25972.webp',
     title: '«ГЛУБОКОЕ ОЧИЩЕНИЕ»',
     subtitle: 'SPA Очищающая Маска-Пленка Для Лица 50мл',
     code: '25972',
@@ -433,7 +433,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/face/12195.webp',
+    img: './img/face/12195.webp',
     title: '«ПРЕВОСХОДНОЕ ОЧИЩЕНИЕ»',
     subtitle: 'SPA Очищающая Маска Для Лица С Минералами Мертвого Моря 75мл',
     code: '12195',
@@ -445,7 +445,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/face/08611.webp',
+    img: './img/face/08611.webp',
     title: '«Для проблемной кожи»',
     subtitle: 'Очищающий Тоник Для Лица С Экстрактом Пшеницы И Алоэ Вера, 100мл',
     code: '12195',
@@ -457,7 +457,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/face/10544.webp',
+    img: './img/face/10544.webp',
     title: '«МАКСИМАЛЬНОЕ СИЯНИЕ»',
     subtitle: 'Сыворотка Для Лица С Витамином С, 30мл',
     code: '10544',
@@ -469,7 +469,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/face/64247.webp',
+    img: './img/face/64247.webp',
     title: '«ANEW 35+» ' + '(мини версия)',
     subtitle: 'Набор Уходовых Средств Для Лица, 15мл',
     code: '64247',
@@ -481,7 +481,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/face/10772.webp',
+    img: './img/face/10772.webp',
     title: '«МОРЯ ГРЕЦИИ»',
     subtitle: 'Разглаживающий Ультраувлажняющий Гель Для Кожи Вокруг Глаз, 15мл',
     code: '10772',
@@ -493,7 +493,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/face/78008.webp',
+    img: './img/face/78008.webp',
     title: '«РОСКОШНОЕ ОБНОВЛЕНИЕ»',
     subtitle: 'Маска-Гель Для Кожи Вокруг Глаз С Экстрактом Черной Икры, 15мл',
     code: '78008',
@@ -505,7 +505,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/face/crem_bb_1358736.webp',
+    img: './img/face/crem_bb_1358736.webp',
     title: 'AVON ВВ-КРЕМ SPF 15',
     subtitle: 'Ультралегкий Дышащий BB-Крем, 30мл',
     code: '1358736',
@@ -517,7 +517,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/face/1391113.webp',
+    img: './img/face/1391113.webp',
     title: 'ЧИСТЫЙ КИСЛОРОД',
     subtitle: 'Ночной Гель Для Лица, 50мл',
     code: '1391113',
@@ -532,7 +532,7 @@ export default [
 
   //  «»===== для тела =======«»
   {
-    img: '../img/for_body/29977.webp',
+    img: './img/for_body/29977.webp',
     title: '«ЛАВАНДА И ИМБИРЬ»',
     subtitle: 'Жидкое Мыло Для Рук 250мл',
     code: '29977',
@@ -544,7 +544,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/29978.webp',
+    img: './img/for_body/29978.webp',
     title: '«ЛАВАНДА И ИМБИРЬ»',
     subtitle: 'Лосьон Для Рук 250мл',
     code: '29978',
@@ -556,7 +556,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/29972.webp',
+    img: './img/for_body/29972.webp',
     title: '«ЛАВАНДА И ИМБИРЬ»',
     subtitle: 'Лосьон Для Рук 250мл',
     code: '29972',
@@ -568,7 +568,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/14516.webp',
+    img: './img/for_body/14516.webp',
     title: 'INCANDESSENCE',
     subtitle: 'Дезодорант-Антиперспирант С Шариковым Аппл. 50мл',
     code: '14516',
@@ -581,7 +581,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/11650.webp',
+    img: './img/for_body/11650.webp',
     title: 'SILICONE / GLOVE',
     subtitle: 'Крем Для Защиты Рук С Глицерином И Силиконом, 75мл',
     code: '11650',
@@ -593,7 +593,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/21545.webp',
+    img: './img/for_body/21545.webp',
     title: '«AVOCADO»',
     subtitle: 'Увлажняющий Лосьон Для Тела С Маслом Авокадо, 750мл',
     code: '21545',
@@ -606,7 +606,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/intimka_013071.webp',
+    img: './img/for_body/intimka_013071.webp',
     title: '«SIMPLY DELICATE»',
     subtitle: 'Смягчающее Очищающее Ср-Во Для Женской Интимной Гигиены 300мл',
     code: '013071',
@@ -619,7 +619,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/89717.webp',
+    img: './img/for_body/89717.webp',
     title: '«РАЙСКОЕ УВЛАЖНЕНИЕ»',
     subtitle: 'SPA Крем-Суфле Для Тела С Маслом Оливы, 200мл',
     code: '89717',
@@ -632,7 +632,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/85935.webp',
+    img: './img/for_body/85935.webp',
     title: '«ПИТАНИЕЕ»',
     subtitle: 'Крем Для Рук С Маслом Какао, Avon 75мл',
     code: '85935',
@@ -645,7 +645,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/crem_1.webp',
+    img: './img/for_body/crem_1.webp',
     title: '«AVOCADO»',
     subtitle: 'Крем Для Рук С Маслом Авокадо 75мл',
     code: '59406',
@@ -658,7 +658,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/16617.webp',
+    img: './img/for_body/16617.webp',
     title: '«ВОССТАНОВЛЕНИЕ»',
     subtitle: 'Крем Для Лица И Тела, Масло Кокоса, 400мл',
     code: '16617',
@@ -671,7 +671,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/01776.webp',
+    img: './img/for_body/01776.webp',
     title: '«SIMPLY DELICATE»',
     subtitle: 'Освежающее Очищающее Ср-Во Для Женской Интимной Гигиены С Витамином Е, 300мл',
     code: '01776',
@@ -684,7 +684,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/24282.webp',
+    img: './img/for_body/24282.webp',
     title: '«ВОССТАНОВЛЕНИЕ»',
     subtitle: 'Крем Для Рук DERMA C Эмолентами, 100мл',
     code: '24282',
@@ -697,7 +697,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/21600.webp',
+    img: './img/for_body/21600.webp',
     title: '«СИЯНИЕ»',
     subtitle: 'Крем Для Рук С Экстрактом Розы И Маслом Ши, 75мл',
     code: '21600',
@@ -710,7 +710,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/21604.webp',
+    img: './img/for_body/21604.webp',
     title: '«СИЯНИЕ»',
     subtitle: 'Лосьон С Экстрактом Розы И Маслом Ши, 400 Мл',
     code: '21604',
@@ -723,7 +723,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/68379.webp',
+    img: './img/for_body/68379.webp',
     title: 'PUR BLANCA',
     subtitle: 'Дезодорант-Антиперспирант С Шариковым Аппл. 50мл.',
     code: '68379',
@@ -736,7 +736,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/15427.webp',
+    img: './img/for_body/15427.webp',
     title: 'LITTLE BLACK DRESS',
     subtitle: 'Дезодорант-Антиперспирант С Шариковым Аппл. 50мл.',
     code: '15427',
@@ -749,7 +749,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/40051.webp',
+    img: './img/for_body/40051.webp',
     title: 'FULL SPEED',
     subtitle: 'Дезодорант-Антиперспирант С Шариковым Аппл. 50мл.',
     code: '40051',
@@ -762,7 +762,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/59070.webp',
+    img: './img/for_body/59070.webp',
     title: '«AVOCADO»',
     subtitle: 'Увлажняющий Лосьон Для Тела С Маслом Авокадо 400мл',
     code: '59070',
@@ -775,7 +775,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/10215.webp',
+    img: './img/for_body/10215.webp',
     title: '«ПИТАНИЕ»',
     subtitle: 'Лосьон Для Тела С Маслом Какао Avon 400млл',
     code: '10215',
@@ -788,7 +788,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/08367.webp',
+    img: './img/for_body/08367.webp',
     title: '«ЛАВАНДОВЫЕ СНЫ»',
     subtitle: 'Лосьон Для Тела Для Всех Типов Кожи 400мл',
     code: '08367',
@@ -801,7 +801,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/49017.webp',
+    img: './img/for_body/49017.webp',
     title: '«ЛАВАНДОВЫЕ СНЫ»',
     subtitle: 'Крем Для Лица, Рук И Тела, Увлажнение, 400мл',
     code: '49017',
@@ -814,7 +814,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/08369.webp',
+    img: './img/for_body/08369.webp',
     title: '«ЛАВАНДОВЫЕ СНЫ»',
     subtitle: 'Крем Для Рук, Для Всех Типов Кожи, Увлажнение, 75мл',
     code: '08369',
@@ -827,7 +827,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/35552.webp',
+    img: './img/for_body/35552.webp',
     title: 'LOVE NATURE',
     subtitle: 'Тальк Для Тела С Ароматом Жасмина И Сандала, 100г',
     code: '35552',
@@ -840,7 +840,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/58555.webp',
+    img: './img/for_body/58555.webp',
     title: 'SIMPLY DELICATE',
     subtitle: 'Ср-Во Для Женской Интимной Гигиены С Экстрактом Ромашки 300мл',
     code: '58555',
@@ -853,7 +853,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/78716.webp',
+    img: './img/for_body/78716.webp',
     title: 'AVON CARE SUN+',
     subtitle: 'Охлаждающий Лосьон-Спрей После Загара С Витамином С',
     code: '78716',
@@ -866,7 +866,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/for_body/10976.webp',
+    img: './img/for_body/10976.webp',
     title: 'MUSK FRESH',
     subtitle: 'Дезодорант-Антиперспирант, 50мл',
     code: '10976',
@@ -883,7 +883,7 @@ export default [
 
   //  «»========== для ванны и душа =======«»
   {
-    img: '../img/wash/23761.webp',
+    img: './img/wash/23761.webp',
     title: '«ЛЕМОНГРАСС И КОКОС»',
     subtitle: 'Лосьон Для Рук 250мл',
     code: '23761',
@@ -895,7 +895,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/wash/20858.webp',
+    img: './img/wash/20858.webp',
     title: '«КОКОСОВОЕ МОЛОКО И МАЛИНА»',
     subtitle: 'Крем-Гель Для Душа, 400мл',
     code: '20858',
@@ -907,7 +907,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/wash/1377323.webp',
+    img: './img/wash/1377323.webp',
     title: '«Небесная Гармония»',
     subtitle: 'Крем-Гель Для Душа, аромат ландыша и нежного яблока 720мл',
     code: '1377323',
@@ -919,7 +919,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/wash/08754.webp',
+    img: './img/wash/08754.webp',
     title: '«АРОМАТЕРАПИЯ: СЧАСТЬЕ»',
     subtitle: 'Крем-Гель Для Душа, аромат граната и фрезии 720мл',
     code: '08754',
@@ -931,7 +931,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/wash/08753.webp',
+    img: './img/wash/08753.webp',
     title: '«ЭНЕРГИЯ ОКЕАНА»',
     subtitle: 'Шампунь-Гель Для Душа, Для Мужчин, 720мл',
     code: '08753',
@@ -943,7 +943,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/wash/14645.webp',
+    img: './img/wash/14645.webp',
     title: '«КИР РОЯЛЬ»',
     subtitle: 'Гель Для Душа, аромат «Малины и Смородины» Avon, 720мл',
     code: '14645',
@@ -955,7 +955,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/wash/16340.webp',
+    img: './img/wash/16340.webp',
     title: '«АЛОХА МОНОЙ»',
     subtitle: 'Гель Для Душа, аромат «кокоса и цветка тиаре» Avon, 720мл',
     code: '16340',
@@ -967,7 +967,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/wash/15276.webp',
+    img: './img/wash/15276.webp',
     title: '«СИЛА ПРИТЯЖЕНИЯ»',
     subtitle: 'Гель Для Душа, аромат «шалфея и сандала» Avon, 720мл',
     code: '15276',
@@ -979,7 +979,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/wash/gel_laguna.webp',
+    img: './img/wash/gel_laguna.webp',
     title: '«Морская Лагуна»',
     subtitle: 'Увлажняющий Гель Для Душа с ароматом сочной груши 720мл',
     code: '1303747',
@@ -991,7 +991,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/wash/16181.webp',
+    img: './img/wash/16181.webp',
     title: '«КЛУБНИЧНЫЕ МЕЧТЫ»',
     subtitle: 'Крем-Гель Для Душа с ароматом клубники со сливками 500мл',
     code: '16181',
@@ -1003,7 +1003,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/wash/16811.webp',
+    img: './img/wash/16811.webp',
     title: '«МАНГО И АНАНАС»',
     subtitle: 'Гель Для Душа «Тропическое Путишествие» 500мл',
     code: '16811',
@@ -1015,7 +1015,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/wash/20860.webp',
+    img: './img/wash/20860.webp',
     title: '«СЛИВКИ И КАКАО»',
     subtitle: 'Крем-Гель Для Душа, с ароматом сливок и какао 400мл',
     code: '20860',
@@ -1027,7 +1027,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/wash/09715.webp',
+    img: './img/wash/09715.webp',
     title: '«Аромотерапия.Счастье»',
     subtitle: 'Крем-Гель Для Душа с ароматом граната и фрезии 500мл',
     code: '09715',
@@ -1039,7 +1039,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/wash/23767.webp',
+    img: './img/wash/23767.webp',
     title: '«НЕЖНАЯ ЛЮБОВЬ В ПАРИЖЕ»',
     subtitle: 'Крем-Гель Для Душа С Ароматом Розы И Ириса 500мл',
     code: '23767',
@@ -1051,7 +1051,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/wash/08015.webp',
+    img: './img/wash/08015.webp',
     title: '«АБСОЛЮТНАЯ ЧИСТОТА»',
     subtitle: 'Гель Для Душа С Ароматом Белого Мускуса и Бамбука 500мл',
     code: '08015',
@@ -1063,7 +1063,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/wash/11421.webp',
+    img: './img/wash/11421.webp',
     title: '«НЕБЕСНАЯ ГАРМОНИЯ»',
     subtitle: 'Крем-Гель Для Душа С Ароматом  Ландыша и Нежного Яблока 500мл',
     code: '11421',
@@ -1078,7 +1078,7 @@ export default [
   //  «»========== для ванны и душа /=======«»
   //  «»========== для волос =======«»
   {
-    img: '../img/per/1391444.webp',
+    img: './img/per/1391444.webp',
     title: '«МАГИЯ ОБЪЕМА»',
     subtitle: 'Шампунь Для Волос Avon Advance Techniques 400мл',
     code: '1391444',
@@ -1090,7 +1090,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/per/11630.webp',
+    img: './img/per/11630.webp',
     title: '«АБСОЛЮТНОЕ ПИТАНИЕ»',
     subtitle: 'Шампунь Для Волос С Маслами Арганы И Кокоса 400мл',
     code: '11630',
@@ -1102,7 +1102,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/per/891150.webp',
+    img: './img/per/891150.webp',
     title: '«АБСОЛЮТНОЕ ПИТАНИЕ»',
     subtitle: 'Маска Для Волос С Маслами Арганы И Кокоса 150мл',
     code: '891150',
@@ -1114,7 +1114,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/per/21701.webp',
+    img: './img/per/21701.webp',
     title: '«НЕПРЕВЗОЙДЕННЫЙ ОБЪЕМ»',
     subtitle: 'Шампунь Для Волос Малина И Гибискус, 700мл',
     code: '21701',
@@ -1126,7 +1126,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/per/78107.webp',
+    img: './img/per/78107.webp',
     title: '«ДРАГОЦЕННЫЕ МАСЛА»',
     subtitle: 'Сыворотка Для Волос С Кокосовым Маслом 100мл',
     code: '78107',
@@ -1138,7 +1138,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/per/1344760.webp',
+    img: './img/per/1344760.webp',
     title: '«УВЛАЖНЯЮЩИЙ АВОКАДО»',
     subtitle: 'Шампунь Для Волос С Маслом Авокадо, 400мл',
     code: '1344760',
@@ -1150,7 +1150,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/per/14477.webp',
+    img: './img/per/14477.webp',
     title: '«ВОССТАНОВЛЕНИЕ»',
     subtitle: 'Маска Для Волос, Сила И Восстановление, 375мл',
     code: '14477',
@@ -1162,7 +1162,7 @@ export default [
     gender: "women",
   },
   {
-    img: '../img/per/26615.webp',
+    img: './img/per/26615.webp',
     title: '«ГРЕЙПФРУТ И МАРАКУЙЯ»',
     subtitle: 'Маска Для Волос С Витаминным Комплексом, 125мл',
     code: '26615',
