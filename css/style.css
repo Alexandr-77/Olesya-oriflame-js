@@ -329,6 +329,7 @@ img {
   font-weight: 700;
   padding: 20px 15px;
   letter-spacing: 3px;
+  color: #ec87dd;
 }
 
 .centertt-sale {
@@ -358,17 +359,13 @@ img {
   font-weight: 500;
   color: #000;
   background: #ffd4fc;
-  padding: 8px 15px;
+  padding: 5px 15px;
   border: 0;
-  border-radius: 20px;
+  border-radius: 15px;
   text-decoration: none;
   transition: 1.2s;
   min-width: 150px;
   text-align: center;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
 }
 
 .bl-knopok a:hover {
@@ -483,16 +480,17 @@ img {
   flex-wrap: wrap;
 }
 .catalogi-block__item {
-  /* border: 1px solid #01E675; */
-  width: 300px;
+  width: 25%;
   box-shadow: 0px 3px 5px -3px #c3c3c3;
   overflow: hidden;
 }
 .catalogi-block__item a {
   display: flex;
+  width: 100%;
+  height: 100%;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
+  object-fit: cover !important;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -500,6 +498,9 @@ img {
   -o-transition: all 0.3s ease;
 }
 .catalogi-block__item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   transition: all 0.8s ease;
   -webkit-transition: all 0.8s ease;
   -moz-transition: all 0.8s ease;
@@ -622,9 +623,8 @@ a.parfum-link:hover {
 
 .card {
   border: none;
-  /* margin: 40px auto; */
   margin: 0 !important;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
   min-width: 280px;
   max-width: 280px;
   /*box-shadow: 2px 13px 40px #c3c3c3;*/
@@ -650,7 +650,7 @@ a.parfum-link:hover {
   content: 'Под заказ';
   font-size: 16px;
   font-weight: 500;
-  color: #c40000;
+  color: #f60f0f;
   padding: 5px 8px;
   background: rgba(167, 167, 167, 0.25);
   width: 100%;
@@ -832,13 +832,19 @@ small.sale-price {
   z-index: 10;
 }
 .card-3d-grup {
-  width: 25px;
-  height: 25px;
-  /* border: #01E675 1px solid; */
-  position: absolute;
-  top: 3px;
-  right: 3px;
+  width: 28px;
+  height: 28px;
+  /*border: #01E675 1px solid;
+  */position: absolute;
+  top: 0;
+  right: 0;
   cursor: pointer;
+  background: #ffd4fc;
+  border-radius: 0 0 0 50%;
+  -webkit-border-radius: 0 0 0 50%;
+  -moz-border-radius: 0 0 0 50%;
+  -ms-border-radius: 0 0 0 50%;
+  -o-border-radius: 0 0 0 50%;
 }
 /* .card-3d-close {
     position: absolute;
@@ -853,8 +859,8 @@ small.sale-price {
   position: absolute;
   width: 16px;
   height: 2px;
-  top: 10px;
-  right: 4px;
+  top: 12px;
+  right: 5px;
   background: #000;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
@@ -867,8 +873,8 @@ small.sale-price {
   position: absolute;
   width: 16px;
   height: 2px;
-  top: 10px;
-  right: 4px;
+  top: 12px;
+  right: 5px;
   background: #000;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
@@ -878,7 +884,7 @@ small.sale-price {
 }
 .card-3d-text h5 {
   text-align: center;
-  margin: 16px 0 16px;
+  margin: 0px 15px 16px;
   font-size: 15px;
 }
 .card-3d-text p {
@@ -923,7 +929,6 @@ small.sale-price {
   padding: 7px 12px 6px;
   color: #333;
   background: #ffd4fc;
-  margin-bottom: 5px;
   font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;
@@ -1301,10 +1306,8 @@ hr {
     display: none;
   }
   .img-fluid {
-   max-width: 50%;
-   /* height: auto; */
    margin: 0 auto;
-}
+  }
   .top-image-bg {
     display: block;
     justify-content: center;
@@ -1351,6 +1354,22 @@ hr {
 }
 /* ======== Media 768px /======== */
 
+/* ====== Media 630px ======== */
+@media (max-width: 630px) {
+  .card-deck {
+    gap: 12px;
+  }
+  .card {
+    border: none;
+    margin: 0 !important;
+    padding-bottom: 25px;
+    min-width: 48%;
+    max-width: 48%;
+    box-shadow: 0 2px 5px 0px #5f5f5f;
+  }
+}
+/* ====== Mediaa 630px /======== */
+
 /* ====== Media 568px ======== */
 @media (max-width: 568px) {
   .navbar-toggler {
@@ -1371,11 +1390,10 @@ hr {
     margin: 0;
   }
   .catalogi-block {
-    gap: 50px 4%;
+    justify-content: space-between;
+    gap: 50px 2%;
   }
-  .catalogi-block__item {
-    width: 30%;
-  }
+
   .catalog-top {
     margin: 35px auto 25px;
     font-size: 5vw;
@@ -1474,12 +1492,14 @@ hr {
   .container-1000 {
     display: none;
   }
+  .catalogi-block__item {
+    width: 32%;
+  }
   .centertt {
-   font-weight: 500;
    padding: 0px 15px 20px;
-}
+  }
   .bl-knopok {
-    margin: 0px auto 15px;
+    margin: 0px auto 30px;
   }
   .parfum-oni {
     margin: 25px auto 30px;
@@ -1489,11 +1509,15 @@ hr {
     justify-content: space-evenly;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
+    margin: 2px 4px 0;
+    gap: 8px 2px;
+    line-height: 130%;
   }
+  .card--smooth::before {
+    font-size: 3vw;
+    padding: 5px 8px;
+}
 
-  .card {
-    box-shadow: 2px 13px 40px #c3c3c3;
-  }
   .card-body p {
     padding: 0;
     margin: 0 0 8px 0;
@@ -1508,8 +1532,9 @@ hr {
     padding: 10px 8px;
   }
   .card-3d-text h5 {
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 14px;
+    margin: 0px 20px 10px 0;
+    text-align: left;
   }
 }
 /* ====== Media 450px /======== */
@@ -1522,26 +1547,123 @@ hr {
   .catalog-top {
     margin: 16px auto 16px;
   }
+  .catalogi-block {
+    margin: 0 -7px;
+  }
+  .catalogi-block__item {
+    box-shadow: 0px 0px 10px -3px #c3c3c3;
+  }
+  .top-arrow {
+    top: 88%;
+    margin-top: -45px;
+  }
   .centertt {
-    padding: 25px 15px;
+    padding: 15px 15px 25px;
+    margin-bottom: 0;
     font-size: 7vw;
   }
-  .card {
-    margin: 5px 0;
-    padding-bottom: 20px;
-    /* min-width: 100%; */
-    /* box-shadow: 2px 13px 40px #c3c3c3; */
+  .centertt-sale {
+    margin: 0;
+    padding-top: 5px;
   }
-  .card-body {
-    text-align: center;
-    padding: 18px 15px 0;
+  .card-deck {
+    gap: 8px 1px;
+    margin: 0 2px 20px;
+  }
+  .card {
+    padding-bottom: 20px;
+    min-width: 48%;
+    max-width: 48%;
+    box-shadow: none;
+    box-shadow: 0px 2px 5px 0px #5f5f5f;
+  }
+  .card:hover {
+    box-shadow: 0px 2px 3px 0px #5f5f5f;
+  }
+  .card-active {
+    background: #fff;
+    border: 1px solid #e2e2e2;
+    border: none;
+    box-shadow: 0px 0px 3px 0px #5f5f5f;
+    border-radius: 10px;
   }
   .card img {
     width: 60%;
   }
-  .card-deck {
-    gap: 15px;
-    margin: 0 15px 20px;
+  .card-body {
+    text-align: center;
+    padding: 12
+    14px 12px 0;
+  }
+  .card-title {
+    margin-bottom: 8px;
+    font-size: 2.8vw;
+  }
+  .card-body p {
+    font-size: 11px;
+  }
+  .card-body p:last-child {
+    font-size: 11px;
+  }
+  .card-3d-text h5 {
+    text-align: left;
+    margin: 0px 20px 10px 0;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  .card-3d-text p {
+    font-size: 12px;
+    line-height: 128%;
+    margin-bottom: 5px;
+  }
+  .text-muted {
+    font-size: 11px;
+  }
+  .card-footer {
+    padding: 5px 0 15px;
+  }
+  .btn-card-3d {
+    padding: 4px 12px 4px;
+    color: rgb(0, 0, 0);
+    /* margin-bottom: 5px; */
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .card-3d-grup {
+    width: 25px;
+    height: 25px;
+    top: 0;
+    right: 0;
+  }
+  .card-3d-close::before {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 2px;
+    top: 11px;
+    right: 4px;
+  }
+  .card-3d-close::after {
+    content: '';
+    position: absolute;
+    width: 14px;
+    height: 2px;
+    top: 11px;
+    right: 4px;
+  }
+  .fa-arrow-circle-right {
+    font-size: 12px;
+  }
+  .card--smooth::before {
+    font-size: 12px;
+    padding: 1px 8px;
+  }
+  .new-produkt {
+    padding: 0px 0 5px;
+    margin-bottom: 15px;
+  }
+  .recomend {
+    margin: 30px auto 0;
   }
   .podrobney-link {
     padding: 5px 17px 5px;
@@ -1576,5 +1698,16 @@ hr {
 
 /* ====== Media 350px ======== */
 @media (max-width: 350px) {
+  .card-title {
+    font-size: 2.7vw;
+  }
 }
 /* ====== Mediaa 350px /======== */
+
+
+/* ====== Media 0px ======== */
+@media (max-width: 0px) {}
+/* ====== Mediaa 0px /======== */
+/* ====== Media 0px ======== */
+@media (max-width: 0px) {}
+/* ====== Mediaa 0px /======== */
