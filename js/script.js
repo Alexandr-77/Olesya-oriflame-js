@@ -1,3 +1,103 @@
+export default {
+  // Объект в который отрисовываются карточки
+  // let outDiv = document.getElementsByClassName('card-deck')[0];
+  
+  // showCards - Отрисовка карточек на странице
+  
+  // source - Масив карточек,
+  // outDiv - Блок для отображения карточки
+  // type - 
+  
+  showCards: function (source, outDiv, type) {
+  
+    if (source === null || source === undefined)  {
+      source = cardList;
+    }
+  
+    for (let i = 0; i < source.length; i++) {
+      if (type !== null && type !== undefined) {
+        if (source[i].type === type) {
+          outDiv.innerHTML += this.createCard(source[i].img, source[i].title, source[i].subtitle, source[i].code, source[i].price, source[i].text, source[i].exist,);
+        } 
+      } else {
+          outDiv.innerHTML += this.createCard(source[i].img, source[i].title, source[i].subtitle, source[i].code, source[i].price, source[i].text, source[i].exist);
+        }
+               
+        
+    }
+  },
+  
+  
+  // Сортировка карточек по полю gender
+  getGenderList: function (source, gender) {
+    let sortList = [];
+    for (let i = 0; i < source.length; i++) {
+      if (source[i].gender === gender) {
+        sortList.push(source[i])
+      }
+    }
+    // console.log(sortList);
+    return sortList;
+  },
+  
+  
+  // Формирование карточки по входным параметрам
+  createCard: function (img, title, subtitle, code, price, text, exist ) {
+  
+        let classes = "";
+        if (!exist) {
+          classes = 'card--smooth';
+        }
+  
+  return '<div class="card ' + classes + ' card-3d">' +
+            // '<img src="' + img + '"  class="card-img-top" alt="' + title + '. ' + subtitle + '">'+
+            `<img src="${img}" class="card-img-top" alt="${title} ${subtitle}"/>`+
+            '<div class="card-body">'+
+              '<h5 class="card-title">' + title + '</h5>'+
+              '<p class="card-text">' + subtitle + '</p>'+
+              '<p>код - ' + code +'</p>'+
+            '</div>'+
+            '<div class="card-footer">'+
+              '<small class="text-muted">' + price + ' руб</small>'+
+            '</div>'+
+            '<div class="card-3d-text">'+
+              '<div class="card-3d-grup">'+
+                  '<span class="card-3d-close"></span>'+
+              '</div>'+
+              '<h5>' + title + '</h5>'+
+              '<p>' + text + '</p>'+
+            '</div>'+
+            '<button class="btn-card-3d">Подробнее<i class="fas fa-arrow-circle-right"></i></button>'+
+            '</div>'
+    },
+
+    // Сортировка карточек по параметру (по филду)
+    // source - Исходный массив с карточками
+    // key - название параметра
+    // val - значение для сортировки
+    sortCardsByField: function (source, key, val) {
+      let array = [];
+
+      for (let cardNum = 0; cardNum < source.length; cardNum++) {        
+        if (source[cardNum].hasOwnProperty(key) && source[cardNum][key] === val)
+          array.push(source[cardNum]);
+          // console.log(source[cardNum].hasOwnProperty(key),  source[cardNum][key] === val);
+      }
+      return array;
+    },
+  
+    sortCards: function ( arrayCard ) {
+      let array = [];
+    for (let i = 0; i < cardTypes.existType.length; i++) {
+      for (let item = 0; item < arrayCard.length; item++) {
+        if (arrayCard[item].exist === cardTypes.existType[i].val) {
+          array.push(arrayCard[item]);
+        }      
+      }
+    }
+    return array;
+    }
+  }
 
 $(document).ready(function() {
 
@@ -48,94 +148,6 @@ import cardTypes from './cardTypes.js'; // Справочник типов па�
 //   createCard: function () {}, 
 //   sortCards: function () []
 // }
-
-export default {
-// Объект в который отрисовываются карточки
-// let outDiv = document.getElementsByClassName('card-deck')[0];
-
-// showCards - Отрисовка карточек на странице
-
-// source - Масив карточек,
-// outDiv - Блок для отображения карточки
-// type - 
-
-showCards: function (source, outDiv, type) {
-
-  if (source === null || source === undefined)  {
-    source = cardList;
-  }
-
-  for (let i = 0; i < source.length; i++) {
-    if (type !== null && type !== undefined) {
-      if (source[i].type === type) {
-        outDiv.innerHTML += this.createCard(source[i].img, source[i].title, source[i].subtitle, source[i].code, source[i].price, source[i].text, source[i].exist,);
-      } 
-    } else {
-        outDiv.innerHTML += this.createCard(source[i].img, source[i].title, source[i].subtitle, source[i].code, source[i].price, source[i].text, source[i].exist);
-      }
-             
-      
-  }
-},
-
-
-// Сортировка карточек по полю gender
-getGenderList: function (source, gender) {
-  let sortList = [];
-  for (let i = 0; i < source.length; i++) {
-    if (source[i].gender === gender) {
-      sortList.push(source[i])
-    }
-  }
-  // console.log(sortList);
-  return sortList;
-},
-
-
-// Формирование карточки по входным параметрам
-createCard: function (img, title, subtitle, code, price, text, exist ) {
-
-      let classes = "";
-      if (!exist) {
-        classes = 'card--smooth';
-      }
-
-return '<div class="card ' + classes + ' card-3d">' +
-          // '<img src="' + img + '"  class="card-img-top" alt="' + title + '. ' + subtitle + '">'+
-          `<img src="${img}" class="card-img-top" alt="${title} ${subtitle}"/>`+
-          '<div class="card-body">'+
-            '<h5 class="card-title">' + title + '</h5>'+
-            '<p class="card-text">' + subtitle + '</p>'+
-            '<p>код - ' + code +'</p>'+
-          '</div>'+
-          '<div class="card-footer">'+
-            '<small class="text-muted">' + price + ' руб</small>'+
-          '</div>'+
-          '<div class="card-3d-text">'+
-            '<div class="card-3d-grup">'+
-                '<span class="card-3d-close"></span>'+
-            '</div>'+
-            '<h5>' + title + '</h5>'+
-            '<p>' + text + '</p>'+
-          '</div>'+
-          '<button class="btn-card-3d">Подробнее<i class="fas fa-arrow-circle-right"></i></button>'+
-          '</div>'
-  },
-
-  sortCards: function ( arrayCard ) {
-    let array = [];
-  for (let i = 0; i < cardTypes.existType.length; i++) {
-    for (let item = 0; item < arrayCard.length; item++) {
-      if (arrayCard[item].exist === cardTypes.existType[i].val) {
-        array.push(arrayCard[item]);
-      }      
-    }
-  }
-  return array;
-  }
-}
-
-
 
 // {
 
