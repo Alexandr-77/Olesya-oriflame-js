@@ -18,7 +18,10 @@ var cardBlockMen = document.getElementsByClassName('card-deck__mens')[0];
 
 
 
-script.showCards(script.getGenderList(script.sortCards(Cards), "women"), cardBlockWomen, "perfume");
+// script.showCards(script.getGenderList(script.sortCards(Cards), "women"), cardBlockWomen, "perfume");
+
+script.showCards(script.sortCards(script.sortCardsByField(Cards, "gender", "women")), cardBlockWomen, "perfume");
+
 script.showCards(script.getGenderList(script.sortCards(Cards), "men"), cardBlockMen, "perfume");
 
 

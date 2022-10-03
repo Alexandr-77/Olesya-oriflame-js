@@ -3,7 +3,7 @@ import Cards from '../card.js'
 
 var cardBlock = document.getElementsByClassName('card-deck')[0];
 
-script.showCards(script.sortCards(Cards), cardBlock, "face",);
+script.showCards(script.sortCards(Cards), cardBlock, "face");
 
 let CardBlock = document.querySelectorAll('.card-3d-text');
 let btnCard = document.querySelectorAll('.btn-card-3d');

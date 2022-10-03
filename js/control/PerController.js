@@ -3,6 +3,7 @@ import Cards from '../card.js'
 
 var cardBlock = document.getElementsByClassName('card-deck')[0];
 
+
 script.showCards(script.sortCards(Cards), cardBlock, "per",);
 
 let CardBlock = document.querySelectorAll('.card-3d-text');
